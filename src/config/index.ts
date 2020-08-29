@@ -5,7 +5,7 @@ export const BUTTON_TEXT = {
   WON: "YOU WIN! click to play again"
 };
 
-const INITIAL_HEALTH_SCORE: number = 10;
+const INITIAL_HEALTH_SCORE: number = 100;
 
 export const HEALTH_SCORE_BOUNDARIES = {
   HEALTHY_NEUTRAL: INITIAL_HEALTH_SCORE > 50 ? 50 : 10,
